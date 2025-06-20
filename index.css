@@ -1,7 +1,7 @@
 /* BODY STYLES */
 body{
     font-family:"Times New Roman",'Times New Roman', Times, serif;
-    background: linear-gradeient(to right, #f0f0f0, #d9d9d9);
+    background: linear-gradient(to right, #f0f0f0, #d9d9d9);
     color: #333;
     line-height: 1.6;
     font-size: 1.2rem;
@@ -25,9 +25,7 @@ header{
     align-items: center;
     position: sticky;
     top: 0;
-    /* Wavy bottom border using SVG as a mask */
-    position: relative;
-    overflow: hidden;
+    z-index: 10; /* optional, to stay above other content */
 }
 
 header h1{
@@ -104,6 +102,15 @@ header nav a:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* CONTACT STYLES */
+
+#contact_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
 
 /*FOOTER STYLES */
 
