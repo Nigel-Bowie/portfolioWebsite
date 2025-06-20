@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" description="width=device-width, initial-scale=1.0">
+    <meta name="Nigel Bowie" description="Professional portfolio">
+    <title>Nigel Bowie Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div id="logo" class="head_section">
+            Portfolio
+        </div>
+        <div class="head_section">
+            <nav>   
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>        
+            </nav>
+        </div>
+    </header>
+
+    <article class="container">
+        <section class="sections" id="home">
+            <h1>Hi, I'm Nigel Bowie!</h1>
+            <p>Full Stack Software Engineer crafting beautiful, functional software experiences</p>
+            <p>Passionate about creating user-friendly applications with modern technologies.</p>
+            <p>Specializing in React, JavaScript, and responsive design.</p>
+        </section>
+
+        <section class="sections" id="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate developer with a keen eye for detail and a love for creating exceptional digital experiences. </p>
+            <p>With expertise in modern web technologies, I bring ideas to life through clean, efficient code.</p>
+            
+            <div class="skills_container">
+                <div id="skill">
+                    <img src="frontend_icon.jpg" alt="" width="48px" height="48px">
+                    <h3>Frontend Development</h3>
+                    <p>React, JavaScript, TypeScript, HTML5, CSS3</p>
+                </div>
+                <div id="skill">
+                    <img src="UI_UX_icon.jpg" alt="" width="48px" height="48px">
+                    <h3>UI/UX Design</h3>
+                    <p>Responsive design, Tailwind CSS, Figma</p>
+                </div>
+                <div id="skill">
+                    <img src="phone_icon.png" alt="" width="48px" height="48px">
+                    <h3>Mobile First</h3>
+                    <p>Progressive Web Apps, Mobile optimization</p>
+                </div>
+                <div id="skill">
+                    <img src="backend-development.png" alt="" width="48px" height="48px">
+                    <h3>Backend development</h3>
+                    <p>Node.js</p>
+                </div>
+                <div id="skill">
+                    <img src="database.png" alt="" width="48px" height="48px">
+                    <h3>Database</h3>
+                    <p></p>
+                </div>
+                <div id="skill">
+                    <img src="Web_Development_advanced.png" alt="" width="48px" height="48px">
+                    <h3>Web Development Technologies</h3>
+                    <p>RESTful APIs, Git, Modern build tools</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sections" id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of my recent projects:</p>
+            <div id="projects_container">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>Description of project 3.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>Description of project 3.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>  
+        </section>
+
+        <section class="sections" id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+            <form id="contact_form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </article>
+
+    
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
