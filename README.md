@@ -1,16 +1,16 @@
 # 🌐 Personal Portfolio Website
 
-Welcome to my personal portfolio website! This site showcases my skills, projects, and background as a [Your Profession, e.g., Front-End Developer, UX Designer, etc.]. It's designed to give visitors an overview of my work and a way to get in touch.
+Welcome to my personal portfolio website! This site showcases my skills, projects, and background as a Full Stack Software Engineer. It's designed to give visitors an overview of my work and a way to get in touch.
 
 ## 🚀 Live Website
 
-Check it out here: [https://yourusername.github.io](https://yourusername.github.io)
+Check it out here: [https://nigel-bowie.github.io](https://nigel-bowie.github.io)
 
 ## 🛠️ Built With
 
 - HTML5
-- CSS3 / Tailwind / Bootstrap (choose one)
-- JavaScript / React / Vue (choose what applies)
+- CSS3 
+- JavaScript 
 - Git & GitHub Pages (for deployment)
 
 ## 📁 Features
@@ -32,49 +32,44 @@ To run the project locally:
    ```bash
    git clone https://github.com/yourusername/portfolio.git
 
-Navigate into the project folder:
+2. Navigate into the project folder:
 
-bash
-Copy
-Edit
-cd portfolio
-Open index.html in your browser or serve with a local server like Live Server.
+   bash
+   Copy
+   Edit
+   cd portfolio
+   Open index.html in your browser or serve with a local server like Live Server.
 
-🧩 Folder Structure
-bash
-Copy
-Edit
-portfolio/
-│
-├── index.html
-├── /css
-│   └── styles.css
-├── /js
-│   └── main.js
-├── /assets
-│   ├── images/
-│   └── resume.pdf
-└── README.md
-🌍 Deployment
-This site is deployed via GitHub Pages. To deploy:
+3. 🧩 Folder Structure
+   bash
+   Copy
+   Edit
+   portfolio/
+   │
+   ├── index.html
+   ├── /css
+   │   └── styles.css
+   ├── /js
+   │   └── main.js
+   ├── /assets
+   │   ├── images/
+   │   └── resume.pdf
+   └── README.md
 
-bash
-Copy
-Edit
-git push origin main
-Or use the Pages tab in your GitHub repo settings.
+4. 🌍 Deployment
+   This site is deployed via GitHub Pages. To deploy:
 
-🙋‍♂️ Author
-Nigel Bowie
-LinkedIn • GitHub • Email
+   bash
+   Copy
+   Edit
+   git push origin main
+   Or use the Pages tab in your GitHub repo settings.
 
-📄 License
-This project is open source and available under the MIT License.
+5. 🙋‍♂️ Author
+   Nigel Bowie
+   LinkedIn • GitHub • Email
 
-yaml
-Copy
-Edit
+   📄 License
+   This project is open source and available under the MIT License.
 
----
-
-Let me know what sections you’d like to customize or add — for example, if you want to include testimonials
+   
